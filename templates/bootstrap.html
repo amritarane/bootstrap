@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+    <center>
+        <h1>
+            bootstrap buttons
+            <button type="button" class="btn btn-primary">bootstrap</button>
+            <button type="button" class="btn btn-secondary">login</button>
+            <button type="button" class="btn btn-success">submit</button>
+            <button type="button" class="btn btn-danger">clear</button>
+            <button type="button" class="btn btn-warning">cancel</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">signup</button>
+            <button type="button" class="btn btn-dark">forgot</button>
+
+            <button type="button" class="btn btn-link">Link</button>
+        </h1>
+        <h1>go to page 
+            <center>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary">1</button>
+                  <button type="button" class="btn btn-secondary">2</button>
+                  <button type="button" class="btn btn-secondary">3</button>
+                  <button type="button" class="btn btn-secondary">4</button>
+                </div>
+                <div class="btn-group mr-2" role="group" aria-label="Second group">
+                  <button type="button" class="btn btn-secondary">5</button>
+                  <button type="button" class="btn btn-secondary">6</button>
+                  <button type="button" class="btn btn-secondary">7</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Third group">
+                  <button type="button" class="btn btn-secondary">8</button>
+                </div>
+            </div>
+        </center>
+        </h1>
+
+    </center>
+   
+    
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+      
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
